@@ -1,0 +1,49 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #E58C8A;
+  text-align: center;
+  margin-top: 5rem;
+  color: #80ff72;
+}
+
+.container {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+
+}
+
+.game-btn {
+  height: 18vmin;
+  width: 18vmin;
+  border: none;
+  border-radius: 1rem;
+  font-size: 11vmin;
+  background-color: #eec0c6;
+  color: black;
+}
+
+.reset-button {
+  height: 3rem;
+  width: 10rem;
+  border:none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  background-color: #eec0c6;
+  font-weight: 700;
+}
